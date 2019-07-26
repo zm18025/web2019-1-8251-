@@ -1,0 +1,94 @@
+﻿p.sample1 {text-align: right;}
+
+dt {color: green;}
+
+h2 {color: blue;}
+
+h2.angry { color: #dc143c;}
+
+h2.sad { color: #ffd700;}
+
+dl.fense {margin: 30px 30px;padding: 10px;border: medium solid #ff00ff;}
+
+th,td{ border: dashed thick black;}
+
+	.example {/*親div*/
+	  position: relative;/*相対配置*/
+	  }
+
+	.example p {
+  	position: absolute;/*絶対配置*/
+  	color: red;/*文字は白に*/
+ 	font-weight: bold; /*太字に*/
+  	font-size: 4em;/*サイズ2倍*/
+  	font-family :Quicksand, sans-serif;/*Google Font*/
+  	margin:0;
+  	padding:0;
+  	top: 0;
+  	left: 0;
+  	}
+
+	.example img {
+	 width: 100%;
+	  }
+
+  	top: 0;
+  	left: 0;
+  	}
+
+	.example img {
+ 	 width: 100%;
+  	}
+
+		#tab {
+		  width: 1250px;/*横幅はここで設定します。100%にすれば可変になります。*/
+		  min-width: 320px;
+		  text-align: left;
+		  margin: 0 auto;
+		}
+		/*tabhead*/
+		#tab1h {
+		  float: left;
+		  width: 20%;
+		  height: 30px;
+		  background: url(img/th1.png) repeat-x bottom left;
+		}
+		#tab2h,
+		#tab3h,
+		#tab4h,
+		#tab5h {
+		  float: left;
+		  width: 20%;
+		  height: 30px;
+		  background: url(img/th2.png) repeat-x bottom left;
+		}
+		#tabhead a,
+		#tabhead a:link,
+		#tabhead a:visited {
+ 		 display: block;
+ 		 text-align: center;
+ 		 color: #111;
+ 		 font-size: 14px;
+ 		 line-height: 2.2;
+  		text-decoration: none;
+ 		 outline: none;
+		}
+		#tabhead a:hover,
+		#tabhead a:active {
+		  color: #777;
+		  text-decoration: none;
+		}
+		/*tabbody*/
+		#tab1b,
+		#tab2b,
+		#tab3b,
+		#tab4b,
+		#tab5b {
+  		overflow: hidden;
+  		background: #eef2fe;
+ 		  padding: 75px;
+ 		 /*縦幅を固定にしたいときはここで設定します。*/
+		}
+
+
+		

@@ -1,0 +1,30 @@
+﻿dt {color: green;}
+
+
+.example {/*親div*/
+	  position: relative;/*相対配置*/
+	  }
+
+	.example p {
+  	position: absolute;/*絶対配置*/
+  	color: block;/*文字は白に*/
+ 	font-weight: bold; /*太字に*/
+  	font-size: 4em;/*サイズ2倍*/
+  	font-family :Quicksand, sans-serif;/*Google Font*/
+  	margin:0;
+  	padding:0;
+  	top: 0;
+  	left: 0;
+  	}
+
+	.example img {
+	 width: 100%;
+	  }
+
+  	top: 0;
+  	left: 0;
+  	}
+
+	.example img {
+ 	 width: 100%;
+  	}
